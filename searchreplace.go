@@ -6,36 +6,23 @@ import (
 )
 
 func main() {
-	if len(os.Args) != 4 {
-		return // do nothing
-	}
-
-	str := os.Args[1]
-	oldChar := os.Args[2]
-	newChar := os.Args[3]
-
-	// if oldChar isn't in str, print original
-	found := false
-	for _, ch := range str {
-		if string(ch) == oldChar {
-			found = true
-			break
-		}
-	}
-	if !found {
-		fmt.Println(str)
+	//args := os.Args takes arguments from the command-line- they come as strings
+	args := os.Args
+	if len(args) != 4 { // check that the strings are atleast three.
 		return
 	}
 
-	// build new string manually
-	result := ""
+	str := args[1] // the first string is at index 1
+	oldchar := args[2]
+	newchar := args[3]
+
+	newstr := "" // initialize an empty string newstr := "hollo"
 	for _, ch := range str {
-		if string(ch) == oldChar {
-			result += newChar
-		} else {
-			result += string(ch)
+		if string(ch) == oldchar {
+			newstr += newchar
+		}else{
+			newstr += string(ch)
 		}
 	}
-
-	fmt.Println(result)
+	fmt.Println(newstr)
 }
