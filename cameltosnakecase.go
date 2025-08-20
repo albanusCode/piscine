@@ -14,8 +14,8 @@ func CamelToSnakeCase(s string) string {
 		if s[length - 1] >= 'A' && s[length - 1] <= 'Z' {
 			return s //if it ends with capital
 		}
-		if s[i] >= 'A' && s[i] <= 'Z' && s[i+1] >= 'A' && s[i+1] <= 'Z'{
-			return s //it has two consecutive
+		if s[i] >= 'A' && s[i] <= 'z' && s[i+1] >= 'A' && s[i+1] <= 'Z'{
+			return s //it has two consecutive caps
 		}
 		if s[i] < 'A' && s[i] > 'Z' || s[i] < 'a' && s[i] > 'a' {
 			return s
