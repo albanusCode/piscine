@@ -9,8 +9,8 @@ func DigitOrder2() {
 	z01.PrintRune('\n')
 }
 
-func main() {
-	DigitOrder2()
-}
+// func main() {
+// 	DigitOrder2()
+// }
 
 //Write a function that displays all digits in ascending order.

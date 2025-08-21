@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main() {
+func searchReplace() {
 	//args := os.Args takes arguments from the command-line- they come as strings
 	args := os.Args
 	if len(args) != 4 { // check that the strings are atleast three.

@@ -19,6 +19,6 @@ func PrintZ(s string) {
 	}
 }
 
-func main() {
-	PrintZ("hello")
-}
+// func main() {
+// 	PrintZ("hello")
+// }

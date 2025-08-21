@@ -1,4 +1,4 @@
-package piscine
+package main
 
 func GCD(a, b int) int {
 	// Make sure both numbers are positive

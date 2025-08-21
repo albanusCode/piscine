@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main() {
+func test() {
 	if len(os.Args) != 4 {
 		return // do nothing
 	}

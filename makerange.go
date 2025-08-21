@@ -1,4 +1,4 @@
-package piscine
+package main
 
 func makerange(min, max int) []int {
 	if min >= max {

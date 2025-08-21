@@ -1,8 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+// import (
+// 	"fmt"
+// )
 
 func RectPerimeter(w, h int) int {
 	if w < 0 || h < 0 {
@@ -14,8 +14,8 @@ func RectPerimeter(w, h int) int {
 	return 0
 }
 
-func main() {
-	fmt.Println(RectPerimeter(10, 2))
-	fmt.Println(RectPerimeter(434343, 898989))
-	fmt.Println(RectPerimeter(10, -2))
-}
+// func main() {
+// 	fmt.Println(RectPerimeter(10, 2))
+// 	fmt.Println(RectPerimeter(434343, 898989))
+// 	fmt.Println(RectPerimeter(10, -2))
+// }

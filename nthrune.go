@@ -1,4 +1,4 @@
-package piscine
+package main
 
 func NRune(s string, n int) rune {
 	// Convert string to slice of runes (handles UTF-8 characters correctly)

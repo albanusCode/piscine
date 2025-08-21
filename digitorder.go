@@ -10,9 +10,6 @@ func DigitOrder() {
 	z01.PrintRune('\n')
 }
 
-func main() {
-	DigitOrder()
-}
 
 // Write a program that displays all digits in descending order, followed by a
 // newline.

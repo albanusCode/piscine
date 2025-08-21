@@ -13,6 +13,6 @@ func RevAlphabet() {
 	z01.PrintRune('\n')
 }
 
-func main() {
-	RevAlphabet()
-}
+// func main() {
+// 	RevAlphabet()
+// }

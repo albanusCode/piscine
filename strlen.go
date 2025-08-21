@@ -9,9 +9,9 @@ func StringLen(s string) {
 	fmt.Println(count)
 }
 
-func main() {
-	StringLen("hello")
-}
+// func main() {
+// 	StringLen("hello")
+// }
 
 
 

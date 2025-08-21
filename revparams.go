@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main() {
+func revParams() {
 	args := os.Args[1:] // skip the program name
 
 	// loop in reverse order

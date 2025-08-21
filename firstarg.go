@@ -1,7 +1,7 @@
 package main
 import "os"
 
-func main() {
+func FirstArg() {
 	if len(os.Args) < 1 {
 		os.Stdout.Write([]byte("\n"))
 	}

@@ -1,4 +1,4 @@
-package piscine
+package main
 
 func SecondHalf(slice []int) []int {
     // find the starting index of the second half

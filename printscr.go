@@ -9,8 +9,8 @@ func PrintScr(s string) {
 	z01.PrintRune('\n')
 }
 
-func main() {
-	PrintScr("Hello World!")
-}
+// func main() {
+// 	PrintScr("Hello World!")
+// }
 
 // Write a program that displays "Hello World!" followed by a \n.
