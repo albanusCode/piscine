@@ -13,9 +13,9 @@ func AlphaBet() {
 	z01.PrintRune('\n')
 }
 
-func main() {
-	AlphaBet()
-}
+// func main() {
+// 	AlphaBet()
+// }
 
 // Write a program that displays the alphabet, with even letters in uppercase, and
 // odd letters in lowercase, followed by a newline.

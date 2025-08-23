@@ -1,8 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+// import (
+// 	"fmt"
+// )
 
 func ThirdTimeIsACharm(str string) string {
 	length := len(str)

@@ -26,26 +26,26 @@ package main
 // 	}
 // }
 
-func atoi(str string) int {
-	number := 0
-	isNeg := false
-	isPos := false
+// func atoi(str string) int {
+// 	number := 0
+// 	isNeg := false
+// 	isPos := false
 
-	for _, ch := range str {
-		if ch == '-' {
-			isNeg = true
-		}else if ch == '+' {
-			isPos = true
-		}
-		if ch >= '0' && ch <= '9' {
-			digit := ch - '0'
-			number = (number * 10) + int(digit)
-		}
-		if isNeg {
-			return -1
-		}else if isPos{
-			return number * 1
-		}
-	}
-	return number
-}
+// 	for _, ch := range str {
+// 		if ch == '-' {
+// 			isNeg = true
+// 		}else if ch == '+' {
+// 			isPos = true
+// 		}
+// 		if ch >= '0' && ch <= '9' {
+// 			digit := ch - '0'
+// 			number = (number * 10) + int(digit)
+// 		}
+// 		if isNeg {
+// 			return -1
+// 		}else if isPos{
+// 			return number * 1
+// 		}
+// 	}
+// 	return number
+// }
