@@ -4,15 +4,15 @@ package main
 // 	"fmt"
 // )
 
-func RectPerimeter(w, h int) int {
-	if w < 0 || h < 0 {
-		return -1
-	}else{
-		perimeter := w*2 + h*2
-		return perimeter
-	}
-	return 0
-}
+// func RectPerimeter(w, h int) int {
+// 	if w < 0 || h < 0 {
+// 		return -1
+// 	}else{
+// 		perimeter := w*2 + h*2
+// 		return perimeter
+// 	}
+// 	return 0
+// }
 
 // func main() {
 // 	fmt.Println(RectPerimeter(10, 2))
