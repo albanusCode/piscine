@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func CountAlpha(str string) int {
 	count := 0
