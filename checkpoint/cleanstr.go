@@ -29,10 +29,10 @@ func CleanStr(str string) {
 	fmt.Println(result)
 }
 
-func main() {
-	CleanStr("you see it's easy to display the same thing")
-	CleanStr(" only    it's  harder   ")
-	CleanStr(" how funny")
-	CleanStr("Did you   hear Mathilde ?")
-	CleanStr("")
-}
+// func main() {
+// 	CleanStr("you see it's easy to display the same thing")
+// 	CleanStr(" only    it's  harder   ")
+// 	CleanStr(" how funny")
+// 	CleanStr("Did you   hear Mathilde ?")
+// 	CleanStr("")
+// }

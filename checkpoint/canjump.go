@@ -23,9 +23,9 @@ func CanJump(arr []uint) bool {
 		if position == len(arr)-1 {
 			return true
 		}
-		// if position >= len(arr) {
-		// 	return false
-		// }
+		if position >= len(arr) - 1 {
+			return false
+		}
 	}
 	return false
 }
