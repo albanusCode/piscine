@@ -10,11 +10,11 @@ func CamelToSnakeCase(s string) string {
 		return ""
 	}
 
-	for i := 0; i < length - 1; i++ {
-		if s[length - 1] >= 'A' && s[length - 1] <= 'Z' {
+	for i := 0; i < length-1; i++ {
+		if s[length-1] >= 'A' && s[length-1] <= 'Z' {
 			return s //if it ends with capital
 		}
-		if s[i] >= 'A' && s[i] <= 'Z' && s[i+1] >= 'A' && s[i+1] <= 'Z'{
+		if s[i] >= 'A' && s[i] <= 'Z' && s[i+1] >= 'A' && s[i+1] <= 'Z' {
 			return s //it has two consecutive caps
 		}
 		if (s[i] >= '0' && s[i] <= '9') || (s[i] < 'A') || (s[i] > 'Z' && s[i] < 'a') || (s[i] > 'z') {
@@ -28,7 +28,7 @@ func CamelToSnakeCase(s string) string {
 				result += "_"
 			}
 			result += string(s[i] + 32)
-		}else{
+		} else {
 			result += string(s[i])
 		}
 	}
@@ -43,4 +43,3 @@ func CamelToSnakeCase(s string) string {
 // 	fmt.Println(CamelToSnakeCase("camelToSnakeCase"))   // camel_To_Snake_Case
 // 	fmt.Println(CamelToSnakeCase("hey2"))               // hey2
 // }
-

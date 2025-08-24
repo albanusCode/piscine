@@ -14,7 +14,7 @@ func main() {
 		fmt.Println(0)
 		return
 	}
-	
+
 	n := atoi(args)
 	for i := 2; i <= n; i++ {
 		isPrime := true
@@ -40,16 +40,16 @@ func atoi(str string) int {
 	for _, ch := range str {
 		if ch == '-' {
 			isNeg = true
-		}else if ch == '+' {
+		} else if ch == '+' {
 			isPos = true
 		}
 		if ch >= '0' && ch <= '9' {
 			digit := ch - '0'
-			number = (number*10) + int(digit)
+			number = (number * 10) + int(digit)
 		}
 		if isNeg {
 			return number * -1
-		}else if isPos {
+		} else if isPos {
 			return number * 1
 		}
 	}

@@ -6,8 +6,15 @@ func HashCode(dec string) string {
 
 	for i := 0; i < size; i++ {
 		val := (int(dec[i]) + size) % 127
-		if val < 33 { // make sure it's printable
+		if val < 32 { // make sure it's printable
 			val += 33
+		}
+		if val > 127 {
+			temp := val - 127
+			if temp < 32 {
+				temp += 33
+				result += string(rune(temp))
+			}
 		}
 		result += string(rune(val))
 	}
